@@ -1,8 +1,8 @@
-# EIMS-DEP: Educational Information Management System - Department Edition
+# EIMS: Educational Information Management System - Department Edition
 
 A modern, full-stack web application for managing academic course enrollments and user management within educational departments. Built with the MERN stack and featuring role-based access control.
 
-## 🚀 Features
+##  Features
 
 ### **Multi-Role System**
 - **Admin**: Full system management, user administration, course creation
@@ -27,7 +27,7 @@ A modern, full-stack web application for managing academic course enrollments an
 - **Profile Management**: User profiles with department assignments
 - **Email Notifications**: Automated email alerts for account creation and updates
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### **Frontend**
 - **React.js** - Modern UI library with hooks and functional components
@@ -45,7 +45,7 @@ A modern, full-stack web application for managing academic course enrollments an
 - **JWT** - JSON Web Tokens for authentication
 - **Nodemailer** - Email sending functionality
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Eims-DEP/
@@ -68,7 +68,7 @@ Eims-DEP/
 └── README.md
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### **Prerequisites**
 - Node.js (v14 or higher)
@@ -80,6 +80,7 @@ Eims-DEP/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/Naveen0030/EIMS-Clg-Portal.git
+   cd EIMS-Clg-Portal
    ```
 
 2. **Install backend dependencies**
@@ -119,13 +120,13 @@ Eims-DEP/
    npm run dev
    ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Development URLs
 - Frontend: http://localhost:5173
 - Backend API: http://localhost:8000
 
-## 📋 API Endpoints
+##  API Endpoints
 
 ### **Authentication**
 - `POST /create-account` - User registration
@@ -150,7 +151,7 @@ Eims-DEP/
 - `POST /instructor/update-enrollment` - Approve/reject enrollments
 - `GET /FetchCourses` - Get instructor's courses
 
-## 🎨 Key Features
+##  Key Features
 
 ### **Dashboard Analytics**
 - **Stats Cards**: Real-time statistics for each role
@@ -168,31 +169,8 @@ Eims-DEP/
 - **Role-based Access**: Granular permissions system
 - **Input Validation**: Server-side and client-side validation
 
-## 🔧 Customization
 
-### **Styling**
-The application uses Tailwind CSS for styling. You can customize:
-- Colors in `tailwind.config.js`
-- Component styles in `src/index.css`
-- Custom CSS classes for specific components
-
-### **Configuration**
-- **Database**: Update MongoDB connection string in `.env`
-- **Email**: Configure Gmail SMTP settings
-- **Ports**: Modify port numbers in environment variables
-
-## 🚀 Deployment
-
-### **Backend Deployment**
-1. Set up MongoDB Atlas or local MongoDB
-2. Configure environment variables
-3. Deploy to platforms like Heroku, Railway, or DigitalOcean
-
-### **Frontend Deployment**
-1. Build the application: `npm run build`
-2. Deploy to platforms like Vercel, Netlify, or GitHub Pages
-
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -200,7 +178,7 @@ The application uses Tailwind CSS for styling. You can customize:
 4. Test thoroughly
 5. Submit a pull request
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - React.js community
 - Tailwind CSS team
